@@ -3,7 +3,7 @@ var p1 = [];
 var p2 = [];
 var operator = "";
 
-// Zahlen für jeden einzelnen Button
+// Zahlen für jeden einzelnen Button; dieses muss in Zukunft geändert werden.
 function calculatorNumbers0() {
   p1.push(0);
   var digit = array2Number(p1)
