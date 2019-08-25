@@ -1,0 +1,19 @@
+body {
+    background-color: powderblue;
+  }
+  h1 {
+    color:darkblue;
+  }
+  p {
+    color: red;
+  }
+
+  output {
+    background-color:yellow;
+  }
+
+.calculator {
+    box-align: centre;
+    background-color: black;
+    
+}

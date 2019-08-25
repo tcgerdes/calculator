@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="" />
+    <title>My Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>My own build Calculator   </h1>
+    <div>
+        <output type="text" id="display">
+    </div>
+
+    <div class="Calculator">
+      <div classname="calculator_keys">
+        <button onclick="calculatorNumbers1()" id="1">1</button>
+        <button onclick="calculatorNumbers2()" id="2">2</button>
+        <button onclick="calculatorNumbers3()" id="3">3</button>
+        <button onclick="plus()">+</button>
+      </div>
+
+      <div class="calculator_keys">
+        <button onclick="calculatorNumbers4()" id="4">4</button>
+        <button onclick="calculatorNumbers5()" id="5">5</button>
+        <button onclick="calculatorNumbers6()" id="6">6</button>
+        <button onclick="minus()">-</button>
+      </div>
+
+      <div class="calculator_keys">
+        <button onclick="calculatorNumbers7()" id="7">7</button>
+        <button onclick="calculatorNumbers8()" id="9">8</button>
+        <button onclick="calculatorNumbers9()" id="9">9</button>
+        <button onclick="equal()">=</button>
+      </div>
+      <button onclick=calculatorNumbers0()>0</button>
+      <button onclick="deleteInput()">Delete</button>
+      <button onclick="multiplikator()">*</button>
+      <button onclick="divide()">/</button>
+    </div>
+    <div>
+      <button id="myBtn">My Button</button>
+    </div>
+  </body>
+</html>
